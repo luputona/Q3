@@ -141,13 +141,13 @@ void ReversTraiangle()
 	int i;
 	int j;
 
-	for (i = 8; i >= 0; i--)
+	for (i = 0; i < 8; i++) //행
 	{
-		for (j = 0; j<8 - i; j++)
+		for (j = 0; j < i; j++) //공백
 		{
 			printf(" ");
 		}
-		for (j = 0; j <= i; j++)
+		for (j = 0; j < 2 * (8 - i) - 1; j++) //별
 		{
 			printf("*");
 		}
