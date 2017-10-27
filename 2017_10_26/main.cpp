@@ -69,10 +69,11 @@ void Multiple()
 		for (i = 1; i < 10; i++)
 		{
 			printf("%d X %d = %d\n", j, i, j * i);
-			if (j == 9)
-			{				
-				break;
-			}
+			
+		}
+		if (j == 9)
+		{
+			break;
 		}
 		printf("\n");
 	}
