@@ -64,12 +64,12 @@ void Multiple()
 	int j;
 	const int MAX = 100;
 
-	for (j = 1; j<10; j++)
+	for (j = 1; j<MAX; j++)
 	{
-		for (i = 1; i < MAX; i++)
+		for (i = 1; i < 10; i++)
 		{
 			printf("%d X %d = %d\n", j, i, j * i);
-			if (i == 9)
+			if (j == 9)
 			{				
 				break;
 			}
